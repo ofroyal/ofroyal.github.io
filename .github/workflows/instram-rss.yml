@@ -15,8 +15,8 @@ jobs:
         id: rss
         uses: katydecorah/instagram-rss-action@v0.3.0
         with:
-          yourInstagram: instagram_handle
-          listOfInstagrams: nytcooking,sohlae,swissmiss,soulfirefarm
+          yourInstagram: sailornina
+          listOfInstagrams: rkive,uarmyhope,thv,agustd,j.m,jin,jungkook.97,bighit_ent
       - name: Commit files
         if: ${{ success() && steps.rss.outputs.RSS_STATUS == 'success' }}
         run: |
